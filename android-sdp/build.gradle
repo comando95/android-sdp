@@ -110,9 +110,9 @@ publishing {
                 }
                 developers {
                     developer {
-                        id = 'comando95'
-                        name = 'Nguyễn Huy Hooàng'
-                        email = 'nguyenhuyhoang16@gmail.com'
+                        id = developerID
+                        name = developerName
+                        email = developerEmail
                     }
                 }
                 scm {
@@ -125,10 +125,10 @@ publishing {
     }
     repositories {
         maven {
-            url 'https://github.com/comando95/android-sdp'
+            url sonatypeRepo
             credentials {
-                username 'comando95'
-                password 'Hoangnh@1995'
+                username sonatypeUsername
+                password sonatypePassword
             }
         }
     }
