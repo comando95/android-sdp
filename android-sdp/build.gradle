@@ -1,6 +1,4 @@
 apply plugin: 'com.android.library'
-apply plugin: 'maven-publish'
-apply plugin: 'signing'
 
 buildscript {
     repositories {
@@ -11,7 +9,7 @@ buildscript {
         }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.3.1'
+        classpath 'com.android.tools.build:gradle:7.4.2'
     }
 }
 
@@ -89,35 +87,4 @@ createSDP{
     unit = "dp"//change to "sp" if needed
     positiveMax = 600//change to 600 or any other value if needed
     negativeMax = 60//change to 600 or any other value if needed
-}
-
-publishing {
-    publications {
-        release(MavenPublication) {
-            groupId = 'com.hoangnh.android-sdp'
-            artifactId = 'sdp-android'
-            version = '1.0.0'
-            artifact("$buildDir/outputs/aar/sdp-android-release.aar")
-            pom {
-                name = 'sdp'
-                description = 'A scalable size unit for Andorid'
-                url = 'https://github.com/comando95/android-sdp'
-                licenses {
-                    license {
-                        name = 'The MIT License (MIT)'
-                        url = 'https://github.com/comando95/sdp/blob/master/LICENSE'
-                    }
-                }
-                scm {
-                    connection = 'scm:git@github.com:intuit/android-sdp.git'
-                    developerConnection = 'scm:git@github.com:comando95/android-sdp.git'
-                    url = 'https://github.com/comando95/android-sdp'
-                }
-            }
-        }
-    }
-}
-
-signing {
-    sign publishing.publications.release
 }
