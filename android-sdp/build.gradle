@@ -108,27 +108,11 @@ publishing {
                         url = 'https://github.com/comando95/sdp/blob/master/LICENSE'
                     }
                 }
-                developers {
-                    developer {
-                        id = developerID
-                        name = developerName
-                        email = developerEmail
-                    }
-                }
                 scm {
                     connection = 'scm:git@github.com:intuit/android-sdp.git'
                     developerConnection = 'scm:git@github.com:comando95/android-sdp.git'
                     url = 'https://github.com/comando95/android-sdp'
                 }
-            }
-        }
-    }
-    repositories {
-        maven {
-            url sonatypeRepo
-            credentials {
-                username sonatypeUsername
-                password sonatypePassword
             }
         }
     }
