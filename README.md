@@ -20,7 +20,7 @@ To add sdp to your project (Using Android Studio and Gradle):
     implementation 'com.comando95.android-sdp:android-sdp:1.0.6'
   }
   ```
-See the [sdp_example.xml](https://github.com/comando95/android-sdp/blob/master/android-sdp/src/main/res/layout/sdp_example.xml) to see how to use to the sdp size unit.
+See the [sdp_example.xml](https://github.com/comando95/android-sdp/blob/master/app/src/main/res/layout/sdp_example.xml) to see how to use to the sdp size unit.
 
 For easy mapping of designs to sdp units, one can create designs with 300 pixels screen width - in this case each pixel in the design corresponds to 1 sdp.
 
