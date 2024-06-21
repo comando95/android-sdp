@@ -17,7 +17,7 @@ To add sdp to your project (Using Android Studio and Gradle):
   
   ```
   dependencies {
-    implementation 'com.comando95.android-sdp:android-sdp:1.0.8'
+    implementation 'com.comando95.android-sdp:android-sdp:1.0.0'
   }
   ```
 See the [sdp_example.xml](https://github.com/comando95/android-sdp/blob/master/android-sdp/src/main/res/layout/sdp_example.xml) to see how to use to the sdp size unit.
