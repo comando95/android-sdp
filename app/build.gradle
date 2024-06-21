@@ -29,4 +29,5 @@ android {
 
 dependencies {
     implementation (project(":android-sdp"))
+//    implementation "com.github.comando95:android-sdp:1.0.0"
 }
