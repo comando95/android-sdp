@@ -16,6 +16,9 @@ To add sdp to your project (Using Android Studio and Gradle):
   for example:
   
   ```
+  repositories {
+    maven { url  = uri("https://jitpack.io") } or maven { url 'https://jitpack.io' }
+  }
   dependencies {
     implementation 'com.comando95.android-sdp:android-sdp:1.0.0'
   }
