@@ -20,7 +20,7 @@ To add sdp to your project (Using Android Studio and Gradle):
     maven { url  = uri("https://jitpack.io") } or maven { url 'https://jitpack.io' }
   }
   dependencies {
-    implementation 'com.comando95.android-sdp:android-sdp:1.0.0'
+    implementation 'com.github.comando95:android-sdp:1.0.0'
   }
   ```
 See the [sdp_example.xml](https://github.com/comando95/android-sdp/blob/master/android-sdp/src/main/res/layout/sdp_example.xml) to see how to use to the sdp size unit.
