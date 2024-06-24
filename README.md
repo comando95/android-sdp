@@ -11,7 +11,7 @@ Use it carefully! for example, in most cases you still need to design a differen
 
 To add sdp to your project (Using Android Studio and Gradle): 
 
-  add implementation 'com.comando95.android-sdp:android-sdp:1.0.0' to your build.gradle dependencies block.
+  add implementation 'com.github.comando95:android-sdp:1.0.0' to your build.gradle dependencies block.
   
   for example:
   
